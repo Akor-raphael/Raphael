@@ -1,0 +1,49 @@
+@media (max-width: 1215px) {
+  .nav_1 section:nth-child(1) {
+    display: none !important;
+  }
+  .Nav_2 {
+    display: none !important;
+  }
+}
+@media (max-width: 940px) {
+    .schedule {
+        /* display: flex; */
+        flex-direction: column ;
+    }
+    .schedule > section {
+        margin-bottom: 40px;
+    }
+    .women {
+        flex-direction: column;
+    }
+    .UEFA-women, .club{
+    width: 100% !important;
+    margin-bottom: 1em !important;
+    }
+    .Men {
+        flex-direction: column;
+    }
+    .Nations-League, .country{
+        width: 100% !important;
+        margin-bottom: 1em !important;
+    }
+    main h1{
+        font-size: 1.3em !important;
+    }
+}
+@media(max-width:360px){
+    .club h2 {
+        font-size: 1em !important;
+    }
+    h2 {
+       font-size: 0.5em !important;
+    }
+    a {
+        font-size: 0.5em !important;
+
+    }
+    .nav_1 > section:nth-child(2) {
+        gap: 1em !important;
+    }
+}

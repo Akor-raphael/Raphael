@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+}
+.nav_1 {
+    display: flex;
+    background-color: rgb(226, 255, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 7em;
+    padding: 1.1em 0;
+}
+.nav_1 > section:nth-child(1) {
+    display: flex;
+    gap: 5em;
+}
+.nav_1 > section:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.Nav_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 5em;
+    background-color: rgb(26, 0, 112);
+}
+.Nav_2 ul {
+    list-style: none;
+    display: flex;
+    gap: 4em;
+}
+.Nav_2 ul li a {
+    color: white;
+    font-size: 1.1em;
+}
+.nav_1 > a {
+    color: azure;
+    border-radius: 3em;
+    border: 1px solid white;
+    padding: 7px 13px;
+    font-size: 71px;
+}
+main{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.123),rgba(0, 0, 0, 0.734)), url(./image/ruben-leija-Qlrcw3yOKec-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7%;
+    gap: 40px;
+}
+main h1 {
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 3em;
+}
+main .main-btn a {
+    display: inline-block !important;
+    text-decoration: none;
+    color: white;
+    border-radius: 17px;
+    background-color: rgb(16, 162, 162);
+    padding: 8px 20px;
+    font-size: 1.2em;
+     font-family: 'Trebuchet MS';
+}
+.mad {
+    padding: 2em 2em;
+    background-color: azure;
+}
+.mad header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.mad header h2 {
+    text-transform:capitalize ;
+}
+.mad header a {
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 17px;
+    padding: 4px 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+.schedule {
+    display: flex;
+    gap: 2%;
+}
+.Day_1 {
+    background-image: linear-gradient(to right, black, blue);
+}
+.Day_2 {
+    background-color: rosybrown;
+}
+.Day_3 {
+    background-color:purple;
+}
+.Day_4 {
+    background-color: grey;
+}
+.schedule section {
+    padding: 2em;
+    border-radius: 17px;
+}
+.schedule section p:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.258);
+    border-radius: 17px;
+    padding: 4px 35px 4PX 8PX;
+    color: white;
+    font-size: 0.8em;
+    display: inline-block;
+}
+.schedule section p:nth-child(2) {
+    margin-top: 21px;
+    color: white;
+}      
+.schedule section h2 {
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 28px;
+    color: white;
+}
+.schedule section a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 9px 27px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.321);
+}
+.women {
+    display: flex;
+    gap: 5%;
+    background-color: rgba(0, 0, 255, 0.799);
+    /* justify-content: space-between; */
+    padding: 2em 3em;
+    margin: 2em 2.5em;
+    border-radius: 17px;
+    min-height: 400px;
+    /* align-items: flex-end; */
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.women .UEFA-women h1 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.604);
+}
+.women .UEFA-women h2 {
+   display: flex;
+    font-size: 2.2em
+    /* margin-bottom:8em ; */
+    /* margin: 0.7em 0; */
+}
+.juventus  {
+    background-image: url(./image/newalisha.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px
+    /* width 30em; */
+}
+.celtic {
+    background-image: url(./image/CLARISSA-LARISEY.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.UEFA-women, .club{
+    width: 25%;
+}
+
+.club {
+    display: flex;
+    align-items: flex-end;
+}
+.club h2 {
+    padding: 22px;
+    /* color: white; */
+}
+.Men {
+   display: flex;
+    background-color: rgba(0, 0, 0, 0.394);
+    padding: 2em 3em;
+    margin: 2.5em 2.5em;
+    border-radius: 17px;
+    /* justify-content: space-around; */
+    gap: 5%;
+    min-height: 35em;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Men .Belgium {
+    display: flex;
+    background-image: url(./image/leandro.webp);
+    background-size: cover;
+    background-position: center;
+}
+.spain {
+    display: flex;
+    background-image: url(./image/newbarca.avif);
+    background-size: cover;
+    background-position: center;
+}
+.country {
+    display: flex;
+    border-radius: 17px;
+    align-items: flex-end;
+    padding: 2em 1.5em;
+    width: 70%;
+}
+.Nations-league h2 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0.7em 0;
+}
+.Nations-league h1 {
+    color: rgba(255, 255, 255, 0.568);
+}
